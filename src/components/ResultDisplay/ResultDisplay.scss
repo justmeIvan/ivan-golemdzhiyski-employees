@@ -1,0 +1,30 @@
+.result-display {
+  margin-top: 30px;
+
+  .winner-card {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    h2 {
+      color: #333;
+      margin: 0 0 10px 0;
+    }
+
+    .winner-text {
+      font-size: 18px;
+      margin: 0;
+
+      strong {
+        color: #2c5282;
+      }
+    }
+  }
+
+  .details-section {
+    h3 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.datagrid-container {
+  margin: 2rem auto;
+  max-width: 90%;
+  overflow-x: auto;
+}
+
+.datagrid {
+  width: 100%;
+  border-collapse: collapse;
+
+  thead {
+    background: #f3f4f6;
+    border-bottom: 2px solid #e5e7eb;
+
+    th {
+      padding: 0.75rem;
+      text-align: left;
+      font-weight: 600;
+      color: #374151;
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid #e5e7eb;
+
+      &:hover {
+        background-color: #f9fafb;
+      }
+
+      td {
+        padding: 0.75rem;
+        color: #4b5563;
+      }
+    }
+  }
+}
